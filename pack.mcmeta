@@ -1,0 +1,11 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": "减少合成步骤，不破坏原有合成配方，修复了一些原版配方问题。",
+		"supported_formats": {
+			"min_inclusive": 44,
+			"max_inclusive": 48
+		}
+
+	}
+}

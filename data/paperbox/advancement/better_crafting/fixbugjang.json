@@ -1,0 +1,25 @@
+{
+    "parent": "paperbox:better_crafting/root_of_recipes",
+    "display": {
+        "icon": {
+            "id": "minecraft:bone"
+        },
+        "title": "原版配方修复",
+        "description": {
+            "text": "发射器、投射器、拉杆、活塞、观察者合成配方中的圆石可以被黑石、深板岩圆石和圆石代替\n（不知道为啥他有stone_crafting_materials，但只用在熔炉的合成上）\n比较器、中继器配方中的石头可以被深板岩和石头代替"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_bones": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "recipes": []
+    }
+}
